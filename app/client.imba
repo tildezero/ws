@@ -3,6 +3,14 @@ global css html
 	p: 0 10px 
 	m: 35px auto
 
+tag socials
+	<self>
+		<ul>
+			<li> <a href="mailto:hi@suhas.one"> "email"
+			<li> <a href="https://github.com/tildezero"> "github"
+			<li> <a href="https://m.page/zero"> "misc links" 
+
+
 tag app
 	<self>
 		<header>
@@ -12,12 +20,9 @@ tag app
 		<main>
 			<p> "as shown by this, i'm not the best webdev, this website may look good at some point however"
 			<h4> "links"
-			<ul>
-				<li>
-					<a href="mailto:hi@suhas.one"> "email" 
-				<li>
-					<a href="https://github.com/tildezero"> "github"
-				<li>
-					<a href="https://m.page/zero"> "misc links"
+			<socials>
+		<footer>
+			<h6> "built with {<a href="https://imba.io"> "imba"} on {<a href="https://vercel.com"> "vercel"}"
+
 
 imba.mount <app>
