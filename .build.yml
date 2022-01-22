@@ -1,0 +1,21 @@
+# sourcehut build file
+
+image: archlinux
+oauth: pages.sr.ht/PAGES:RW
+packages: 
+    - nodejs
+    - npm
+sources:
+    - https://github.com/tildezero/ws
+environment:
+    site: zeromomentum.srht.site
+tasks: 
+    - install: | 
+        cd ws
+        npm install
+    - package: |
+        cd ws
+        npm run build
+        tar -C dist/public -cvz . > ../site.tar.gz
+    - upload: |
+        acurl -f https://pages.sr.ht/publish/$site -Fcontent=@site.tar.gz
