@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/r/:path*"
+      "destination": "https://github.com/tildezero/:path*"
+    }
+  ]
+}
