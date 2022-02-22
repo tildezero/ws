@@ -16,6 +16,7 @@
   "author": "suhas (https://github.com/tildezero)",
   "license": "MIT",
   "devDependencies": {
+    "@now/build-utils": "^2.7.0",
     "@vercel/node": "^1.12.1",
     "dotenv": "^16.0.0"
   }
