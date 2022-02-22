@@ -18,6 +18,8 @@
   "devDependencies": {
     "@now/build-utils": "^2.7.0",
     "@vercel/node": "^1.12.1",
-    "dotenv": "^16.0.0"
+    "dotenv": "^16.0.0",
+    "tsc": "^2.0.4",
+    "typescript": "^4.5.5"
   }
 }
