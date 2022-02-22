@@ -1,4 +1,5 @@
 import './pages'
+import "dotenv/config"
 
 global css html
 	ff:sans max-width:650px lh:1.4 fs:18px bgc:cooler2
@@ -16,11 +17,13 @@ tag app
 			<a.nv route-to='/'> "home"
 			<a.nv route-to='/contact'> "contact"
 		
+		<h1> "yeah"
 		<home route='/$'>
 		<contact route='/contact'>
 			
 		<footer>
 			<h6> "built with {<a href="https://imba.io"> "imba"} on {<a href="https://vercel.com"> "vercel"}"
+
 
 
 imba.mount <app>

@@ -5,6 +5,10 @@ css button h:36px
 
 tag home
 	<self>
+		const wf = await window.fetch('https://suhas.one/api/lf')
+		const d = await wf.json!
+		const track = d['recenttracks']['track'][0] 
+
 		<header>
 			<h1> "hi"
 			<h2> "im suhas"
@@ -16,6 +20,10 @@ tag home
 				<li> <a href="mailto:hi@suhas.one"> "email"
 				<li> <a href="https://github.com/tildezero"> "github"
 				<li> <a href="https://m.page/zero"> "misc links"
+			<h4> "music"
+			const txt = track['@attr'] === undefined ? "last listened to:" : "currently listening to:" 
+			<p> "{txt} {track['name']} by {track['artist']['#text']} ({<a href=track['url']> "link"})"
+			<p> "last.fm profile: {<a href="https://last.fm/zeromomentum"> "@zeromomentum"}"
 
 tag contact
 	<self>
