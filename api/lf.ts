@@ -7,7 +7,8 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
             method: "user.getrecenttracks",
             user: "zeromomentum",
             format: "json",
-            api_key: process.env.LASTFM_KEY
+            api_key: process.env.LASTFM_KEY,
+            limit: 2
         })
         .json()
     return res.json(data)
