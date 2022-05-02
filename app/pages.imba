@@ -23,7 +23,7 @@ tag home
 			<h4> "music"
 			const txt = track['@attr'] === undefined ? "last listened to:" : "currently listening to:" 
 			<p> "{txt} {track['name']} by {track['artist']['#text']} ({<a href=track['url']> "link"})"
-			<p> "last.fm profile: {<a href="https://last.fm/zeromomentum"> "@zeromomentum"}"
+			<p> "last.fm profile: {<a href="https://www.last.fm/user/zeromomentum"> "@zeromomentum"}"
 
 tag contact
 	<self>
