@@ -17,7 +17,7 @@ tag app
 			<a.nv route-to='/'> "home"
 			<a.nv route-to='/contact'> "contact"
 		
-		<h1> "yeah"
+		<h1> "suhas's website"
 		<home route='/$'>
 		<contact route='/contact'>
 			
