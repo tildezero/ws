@@ -10,8 +10,7 @@ tag home
 		const track = d['recenttracks']['track'][0] 
 
 		<header>
-			<h1> "hi"
-			<h2> "im suhas"
+			<h2> "hi, i'm suhas"
 			<h4> "sometimes i code (really badly)"
 		<main>
 			<p> "as shown by this, i'm not the best webdev, this website may look good at some point however"
