@@ -18,11 +18,13 @@ tag home
 			<ul>
 				<li> <a href="mailto:hi@suhas.one"> "email"
 				<li> <a href="https://github.com/tildezero"> "github"
-				<li> <a href="https://m.page/zero"> "misc links"
+				<li> <a href="https://suhas.omg.lol"> "everything else"
 			<h4> "music"
 			const txt = track['@attr'] === undefined ? "last listened to:" : "currently listening to:" 
 			<p> "{txt} {track['name']} by {track['artist']['#text']} ({<a href=track['url']> "link"})"
 			<p> "last.fm profile: {<a href="https://www.last.fm/user/zeromomentum"> "@zeromomentum"}"
+			<h4> "status (provided by {<a href="https://status.lol"> "status.lol"})"
+				<script src="https://status.lol/suhas.js?time&link&fluent&pretty">
 
 tag contact
 	<self>
