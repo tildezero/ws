@@ -8,6 +8,9 @@ global css html
 
 global css .nv
 	mr: 8px
+	
+global css .statuslol
+	c:transparent
 
 
 tag app
