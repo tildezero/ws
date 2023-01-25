@@ -10,7 +10,7 @@ global css .nv
 	mr: 8px
 	
 global css .statuslol
-	c:transparent
+	bgc:transparent
 
 
 tag app
