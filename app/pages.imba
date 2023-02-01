@@ -11,7 +11,7 @@ tag home
 
 		<header>
 			<h2> "hi, i'm suhas"
-			<h4> "sometimes i code (really badly)"
+			<h4> "sometimes i code"
 		<main>
 			<p> "as shown by this, i'm not the best webdev, this website may look good at some point however"
 			<h4> "links"
