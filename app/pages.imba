@@ -34,9 +34,12 @@ tag contact
 		<form.pageclip-form action="https://send.pageclip.co/AqqkuZs8N5czjJZrqA3nekcQy2DhbQ6S" method="post">
 			<input type="text" name="name" placeholder="name" required>
 			<br>
+			<br>
 			<input type="email" name="email" placeholder="email" required>
 			<br>
+			<br>
 			<textarea name="message" placeholder="your message" required>
+			<br>
 			<br>
 			<button.pageclip-form__submit type="submit">
 				<span> "Submit!"
