@@ -25,6 +25,7 @@ tag home
 			<p> "last.fm profile: {<a href="https://www.last.fm/user/zeromomentum"> "@zeromomentum"}"
 			<h4> "status (provided by {<a href="https://status.lol"> "status.lol"})"
 				<br>
+				<br>
 				<script src="https://status.lol/suhas.js?time&link&fluent&pretty">
 
 tag contact
