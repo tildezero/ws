@@ -10,15 +10,15 @@ tag home
 		const track = d['recenttracks']['track'][0] 
 
 		<header>
-			<h2> "hi, i'm suhas"
-			<h4> "sometimes i code"
+			<h2> "hi, i'm suhas, and sometimes, i code"
 		<main>
-			<p> "as shown by this, i'm not the best webdev, this website may look good at some point however"
+			<p> "hello world! i'm a current high school junior located in texas, and i occasionally play violin, and code. this website has mostly links to other places i'm on"
 			<h4> "links"
 			<ul>
-				<li> <a href="mailto:hi@suhas.one"> "email"
+				<li> <a href="mailto:hi@suhas.one"> "send me an email"
 				<li> <a href="https://github.com/tildezero"> "github"
-				<li> <a href="https://suhas.omg.lol"> "everything else"
+				<li> <a href="https://suhas.weblog.lol"> "blog"
+				<li> <a href="https://suhas.omg.lol"> "other assorted links"
 			<h4> "music"
 			const txt = track['@attr'] === undefined ? "last listened to:" : "currently listening to:" 
 			<p> "{txt} {track['name']} by {track['artist']['#text']} ({<a href=track['url']> "link"})"
