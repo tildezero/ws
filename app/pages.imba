@@ -12,7 +12,7 @@ tag home
 		<header>
 			<h2> "hi, i'm suhas, and sometimes i code"
 		<main>
-			<p> "hello world! i'm currently a freshman studying computer science at ut austin, and i occasionally code. this website has mostly links to other places i'm on"
+			<p> "hello world! i'm currently a student studying computer science at ut austin, and i occasionally code. this website has mostly links to other places i'm on"
 			<h4> "links"
 			<ul>
 				<li> <a href="mailto:hi@suhas.one"> "send me an email"
